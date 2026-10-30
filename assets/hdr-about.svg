@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="96" viewBox="0 0 1280 96" role="img" aria-label="About">
+<defs>
+  <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#3b82f6" stop-opacity="0"/>
+    <stop offset="0.75" stop-color="#3b82f6" stop-opacity="0.45"/>
+    <stop offset="1" stop-color="#00d4ff" stop-opacity="0.75"/>
+  </linearGradient>
+  <linearGradient id="hr" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00d4ff" stop-opacity="0.75"/>
+    <stop offset="0.25" stop-color="#3b82f6" stop-opacity="0.45"/>
+    <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#001c27"/>
+    <stop offset="1" stop-color="#000a0f"/>
+  </linearGradient>
+  <style>
+    .comet { animation: comet 5.5s ease-in-out infinite; }
+    @keyframes comet { 0% { transform: translateX(-70px); opacity: 0; } 15% { opacity: .9; } 85% { opacity: .9; } 100% { transform: translateX(760px); opacity: 0; } }
+    .capglow { animation: capglow 5s ease-in-out infinite; }
+    @keyframes capglow { 0%,100% { opacity: .25; } 50% { opacity: .65; } }
+    
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      animate, animateTransform { display: none; }
+    }
+  </style>
+</defs>
+<rect x="316" y="47" width="190" height="1" fill="url(#hl)"/>
+<rect x="774" y="47" width="190" height="1" fill="url(#hr)"/>
+<g class="comet"><rect x="316" y="46.3" width="54" height="1.6" fill="#9fe9ff" opacity="0.9"/></g>
+
+<rect x="532" y="18" width="216" height="60" rx="30" fill="url(#cap)"
+      stroke="#3b82f6" stroke-opacity="0.22"/>
+<rect x="550" y="33" width="180" height="1" fill="url(#lineh)" opacity="0.5" class="capglow"/>
+<path d="M567.78 56.00 577.50 34.61H582.25L591.81 56.00H587.40L585.15 51.26H574.33L572.08 56.00ZM579.93 38.63 576.34 46.91H583.45L579.97 38.63Z M607.25 52.34H612.29Q612.98 52.34 613.61 52.20Q614.24 52.07 614.72 51.75Q615.20 51.44 615.48 50.90Q615.76 50.36 615.76 49.52Q615.76 47.87 614.84 47.17Q613.91 46.46 612.38 46.46H607.25ZM602.54 34.58H612.62Q614.14 34.58 615.40 34.85Q616.67 35.12 617.57 35.73Q618.47 36.35 618.96 37.37Q619.46 38.39 619.46 39.89Q619.46 41.48 618.71 42.58Q617.96 43.67 616.55 44.36Q618.52 44.93 619.50 46.36Q620.48 47.78 620.48 49.79Q620.48 51.41 619.85 52.59Q619.22 53.78 618.15 54.53Q617.09 55.28 615.72 55.64Q614.36 56.00 612.92 56.00H602.54ZM607.25 43.25H612.01Q613.27 43.25 614.09 42.65Q614.89 42.05 614.89 40.70Q614.89 39.95 614.62 39.47Q614.36 38.99 613.90 38.72Q613.46 38.45 612.87 38.34Q612.29 38.24 611.66 38.24H607.25Z M652.80 45.20Q652.80 47.51 651.91 49.52Q651.03 51.53 649.53 53.03Q648.03 54.53 646.00 55.40Q643.98 56.27 641.70 56.27Q639.38 56.27 637.38 55.40Q635.37 54.53 633.87 53.03Q632.37 51.53 631.50 49.52Q630.62 47.51 630.62 45.20Q630.62 42.89 631.50 40.87Q632.37 38.84 633.87 37.34Q635.37 35.84 637.38 34.97Q639.38 34.10 641.70 34.10Q643.98 34.10 646.00 34.97Q648.03 35.84 649.53 37.34Q651.03 38.84 651.91 40.87Q652.80 42.89 652.80 45.20ZM641.70 38.63Q640.35 38.63 639.16 39.16Q637.98 39.68 637.09 40.58Q636.21 41.48 635.68 42.67Q635.16 43.85 635.16 45.20Q635.16 46.55 635.68 47.73Q636.21 48.92 637.09 49.80Q637.98 50.69 639.16 51.22Q640.35 51.74 641.70 51.74Q643.05 51.74 644.22 51.22Q645.38 50.69 646.27 49.80Q647.16 48.92 647.67 47.73Q648.18 46.55 648.18 45.20Q648.18 43.85 647.67 42.67Q647.16 41.48 646.27 40.58Q645.38 39.68 644.22 39.16Q643.05 38.63 641.70 38.63Z M682.18 47.90Q682.18 52.25 679.75 54.38Q677.32 56.51 673.03 56.51Q668.68 56.51 666.29 54.39Q663.91 52.28 663.91 47.90V34.58H668.62V47.90Q668.62 48.77 668.77 49.61Q668.92 50.45 669.40 51.11Q669.88 51.77 670.73 52.16Q671.59 52.55 673.03 52.55Q675.55 52.55 676.51 51.42Q677.47 50.30 677.47 47.90V34.58H682.18Z M700.16 38.54 693.35 38.57V34.61H711.62V38.57L704.87 38.54V56.00H700.16Z" fill="#eaf7fc"/>
+<defs>
+  <linearGradient id="lineh" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00d4ff" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#00d4ff" stop-opacity="0.45"/>
+    <stop offset="1" stop-color="#00d4ff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+</svg>
